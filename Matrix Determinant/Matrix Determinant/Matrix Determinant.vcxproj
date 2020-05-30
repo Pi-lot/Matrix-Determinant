@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ee23e969-d783-4dcb-8ef2-98bc0417579f}</ProjectGuid>
-    <RootNamespace>MatrixComputations</RootNamespace>
+    <ProjectGuid>{2c2f4d3d-6965-43bf-88cd-c059b890d142}</ProjectGuid>
+    <RootNamespace>MatrixDeterminant</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Matrix Computations.cpp" />
+    <ClCompile Include="Matrix Determinant.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

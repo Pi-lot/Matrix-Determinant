@@ -73,7 +73,7 @@ int main() {
 			cout << ",";
 	}
 	cout << "Calculating" << endl;
-	cout << "Determinant: "<< CalDet(mat, size);
+	cout << "Determinant: " << CalDet(mat, size);
 	delete[] mat;
 }
 
